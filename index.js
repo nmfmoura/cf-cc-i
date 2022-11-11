@@ -21,8 +21,8 @@ export default {
 		else if(request.method == "POST") {
 			// console.log("received POST request");
 			var reply = {
-				'message': 'You just POSTed something',
-				'method': 'POST'
+				'key1': 'value1',
+				'key2': 'value2'
 			}
 			return new Response(JSON.stringify(reply, null, 2), {
 				headers: {
