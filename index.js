@@ -20,7 +20,7 @@ export default {
 		}
 		else if(request.method == "POST") {
 			// console.log("received POST request");
-			var reply = {
+			const reply = {
 				'key1': 'value1',
 				'key2': 'value2'
 			}
